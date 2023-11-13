@@ -21,7 +21,7 @@ func DBinstance() *mongo.Client {
 	}
 
 	defer cancel()
-	fmt.Println("Conncted to MongoDB")
+	fmt.Println("Connected to MongoDB")
 	return client
 }
 
